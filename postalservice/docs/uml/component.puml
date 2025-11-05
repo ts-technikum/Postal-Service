@@ -1,0 +1,14 @@
+@startuml
+component JavaFX as UI
+component "REST API\n(Spring Boot)" as API
+component RabbitMQ as MQ
+component "Letter Worker" as LW
+component "Package Worker" as PW
+database Postgres as DB
+UI --> API
+API --> MQ
+LW --> DB
+PW --> DB
+MQ --> LW
+MQ --> PW
+@enduml

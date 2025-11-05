@@ -1,0 +1,5 @@
+date,hours,task,notes
+2025-11-01,2,Project skeleton,Create modules and basic API
+2025-11-02,3,Workers and messaging,Letter/Package processors
+2025-11-03,2,JavaFX UI,Basic table + buttons
+2025-11-03,1,Unit tests,Controller and processors

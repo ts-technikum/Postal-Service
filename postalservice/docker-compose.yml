@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: postal
+      POSTGRES_USER: postal
+      POSTGRES_PASSWORD: postal
+    ports: ["5432:5432"]
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"

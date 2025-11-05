@@ -1,0 +1,22 @@
+@startuml
+actor User
+participant UI
+participant API
+queue MQ
+participant LW
+participant PW
+database DB
+User -> UI: Click Send Letter/Package
+UI -> API: POST /letter or /package
+API -> DB: save WAITING
+API -> MQ: publish id
+MQ -> LW: id (letter)
+LW -> DB: load + validate
+LW -> DB: update SEND/REJECTED
+MQ -> PW: id (package)
+PW -> DB: load + validate
+PW -> DB: update SEND/REJECTED
+UI -> API: GET /status
+API -> DB: select *
+API --> UI: JSON (items)
+@enduml

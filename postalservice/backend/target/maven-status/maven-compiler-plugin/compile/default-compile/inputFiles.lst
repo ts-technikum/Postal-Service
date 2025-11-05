@@ -1,0 +1,12 @@
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\repo\ParcelRepository.java
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\controller\ApiController.java
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\repo\LetterRepository.java
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\service\IdService.java
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\config\RabbitConfig.java
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\domain\Letter.java
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\domain\Parcel.java
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\service\QueuePublisher.java
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\dto\StatusResponse.java
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\PostalApplication.java
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\domain\Status.java
+C:\Users\tinan\Desktop\postalservice\postalservice\backend\src\main\java\com\postalservice\postal\dto\StatusItemDto.java

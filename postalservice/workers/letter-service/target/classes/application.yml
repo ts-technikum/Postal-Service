@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postal
+    username: postal
+    password: postal
+  jpa:
+    hibernate:
+      ddl-auto: none
+  rabbitmq:
+    host: localhost
+    port: 5672
+app:
+  queues:
+    letter: letter.queue

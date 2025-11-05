@@ -1,0 +1,5 @@
+com\postalservice\letter\Letter.class
+com\postalservice\letter\LetterProcessor.class
+com\postalservice\letter\LetterWorkerApplication.class
+com\postalservice\letter\Status.class
+com\postalservice\letter\LetterRepository.class

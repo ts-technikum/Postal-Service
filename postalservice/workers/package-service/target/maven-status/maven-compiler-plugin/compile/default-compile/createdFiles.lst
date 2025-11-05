@@ -1,0 +1,5 @@
+com\postalservice\pack\Parcel.class
+com\postalservice\pack\ParcelRepository.class
+com\postalservice\pack\Status.class
+com\postalservice\pack\PackageWorkerApplication.class
+com\postalservice\pack\ParcelProcessor.class

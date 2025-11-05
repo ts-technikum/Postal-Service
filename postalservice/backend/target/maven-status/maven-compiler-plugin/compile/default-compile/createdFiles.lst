@@ -1,0 +1,12 @@
+com\postalservice\postal\dto\StatusResponse.class
+com\postalservice\postal\config\RabbitConfig.class
+com\postalservice\postal\PostalApplication.class
+com\postalservice\postal\domain\Parcel.class
+com\postalservice\postal\controller\ApiController.class
+com\postalservice\postal\dto\StatusItemDto.class
+com\postalservice\postal\repo\LetterRepository.class
+com\postalservice\postal\domain\Status.class
+com\postalservice\postal\repo\ParcelRepository.class
+com\postalservice\postal\service\IdService.class
+com\postalservice\postal\domain\Letter.class
+com\postalservice\postal\service\QueuePublisher.class
